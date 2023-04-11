@@ -13,6 +13,7 @@ const MainSearch = () => {
   const handleChange = (e) => {
     setQuery(e.target.value)
   }
+  console.log(handleChange)
 
   const handleSubmit = async (e) => {
     e.preventDefault()
